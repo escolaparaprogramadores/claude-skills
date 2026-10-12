@@ -56,6 +56,22 @@ As skills estão escritas em português.
 
 ## Instalação
 
+### Jeito mais fácil: peça ao Claude
+
+Abra o Claude Code, cole o texto abaixo e envie. Ele baixa e instala sozinho.
+
+```text
+Instale a skill "prompt" do repositório https://github.com/escolaparaprogramadores/claude-skills para todos os meus projetos: copie a pasta skills/prompt (com os arquivos de dentro) para a pasta de skills do meu usuário (~/.claude/skills/prompt). Se ela já existir, me pergunte antes de substituir. No fim, me mostre os arquivos instalados.
+```
+
+Depois abra uma sessão nova e chame `/prompt <seu pedido>`.
+
+> [!TIP]
+> Quer a skill só em um projeto? Troque "para todos os meus projetos" por "só neste projeto" e
+> "~/.claude/skills/prompt" por ".claude/skills/prompt".
+
+### Jeito manual
+
 Copie a pasta da skill para uma destas pastas:
 
 | Pasta | Vale para |
