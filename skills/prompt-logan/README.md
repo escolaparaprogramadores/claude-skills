@@ -1,4 +1,4 @@
-# /prompt
+# /prompt-logan
 
 Transforma um pedido solto ("quero um filtro de vencidos na tela de cobranças") num prompt
 fechado para um agente de código, com critérios de aceite numerados que cobrem o pedido
@@ -14,7 +14,7 @@ das suas palavras, do que foi visto na tela, de um `arquivo:linha` ou de uma res
 Cole isto no Claude Code e envie:
 
 ```text
-Instale a skill "prompt" do repositório https://github.com/escolaparaprogramadores/claude-skills para todos os meus projetos: copie a pasta skills/prompt (com os arquivos de dentro) para a pasta de skills do meu usuário (~/.claude/skills/prompt). Se ela já existir, me pergunte antes de substituir. No fim, me mostre os arquivos instalados.
+Instale a skill "prompt-logan" do repositório https://github.com/escolaparaprogramadores/claude-skills para todos os meus projetos: copie a pasta skills/prompt-logan (com os arquivos de dentro) para a pasta de skills do meu usuário (~/.claude/skills/prompt-logan). Se ela já existir, me pergunte antes de substituir. No fim, me mostre os arquivos instalados.
 ```
 
 Outros jeitos de instalar estão no [README principal](../../README.md#instalação).
@@ -22,7 +22,7 @@ Outros jeitos de instalar estão no [README principal](../../README.md#instalaç
 ## Como usar
 
 ```text
-/prompt adicionar a opção "Vencido" no filtro Situação da tela de cobranças
+/prompt-logan adicionar a opção "Vencido" no filtro Situação da tela de cobranças
 ```
 
 Deixe a aplicação aberta e logada no navegador antes de chamar.
