@@ -52,9 +52,27 @@ As skills estão escritas em português.
 
 | Skill | O que faz | Como chamar |
 |---|---|---|
-| [prompt](skills/prompt/) | Transforma um pedido solto num prompt fechado para um agente de código, com critérios de aceite numerados. Antes, olha a aplicação aberta no navegador e, se o pedido mexe em tela, monta uma maquete para você aprovar. | `/prompt <pedido>` |
+| [prompt-logan](skills/prompt-logan/) | Transforma um pedido solto num prompt fechado para um agente de código, com critérios de aceite numerados. Antes, olha a aplicação aberta no navegador e, se o pedido mexe em tela, monta uma maquete para você aprovar. | `/prompt-logan <pedido>` |
 
 ## Instalação
+
+### Jeito mais fácil: peça ao Claude
+
+Abra o Claude Code, cole o texto abaixo e envie. Ele baixa e instala sozinho.
+
+```text
+Instale a skill "prompt-logan" do repositório https://github.com/escolaparaprogramadores/claude-skills para todos os meus projetos: copie a pasta skills/prompt-logan (com os arquivos de dentro) para a pasta de skills do meu usuário (~/.claude/skills/prompt-logan). Se ela já existir, me pergunte antes de substituir. No fim, me mostre os arquivos instalados.
+```
+
+Depois abra uma sessão nova e chame `/prompt-logan <seu pedido>`.
+
+Quer a skill só em um projeto? Abra o Claude Code na pasta do projeto e cole este:
+
+```text
+Instale a skill "prompt-logan" do repositório https://github.com/escolaparaprogramadores/claude-skills só neste projeto: copie a pasta skills/prompt-logan (com os arquivos de dentro) para a pasta de skills deste projeto (.claude/skills/prompt-logan). Se ela já existir, me pergunte antes de substituir. No fim, me mostre os arquivos instalados.
+```
+
+### Jeito manual
 
 Copie a pasta da skill para uma destas pastas:
 
@@ -67,14 +85,14 @@ macOS / Linux:
 
 ```bash
 git clone https://github.com/escolaparaprogramadores/claude-skills.git
-mkdir -p ~/.claude/skills && cp -r claude-skills/skills/prompt ~/.claude/skills/
+mkdir -p ~/.claude/skills && cp -r claude-skills/skills/prompt-logan ~/.claude/skills/
 ```
 
 Windows (PowerShell):
 
 ```powershell
 git clone https://github.com/escolaparaprogramadores/claude-skills.git
-New-Item -ItemType Directory -Force "$HOME\.claude\skills" | Out-Null; Copy-Item -Recurse claude-skills\skills\prompt "$HOME\.claude\skills\"
+New-Item -ItemType Directory -Force "$HOME\.claude\skills" | Out-Null; Copy-Item -Recurse claude-skills\skills\prompt-logan "$HOME\.claude\skills\"
 ```
 
 > [!TIP]

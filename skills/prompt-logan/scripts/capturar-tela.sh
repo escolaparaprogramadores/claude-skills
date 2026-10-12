@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Tira um print da tela inteira e grava em <pasta-de-provas>/maquete-NN.png.
-# Usado pela skill /prompt (Passo 5). Numera sozinho e nunca sobrescreve.
+# Usado pela skill /prompt-logan (Passo 5). Numera sozinho e nunca sobrescreve.
 #
 # Uso: bash capturar-tela.sh <pasta-de-provas> [prefixo-do-arquivo]
 #

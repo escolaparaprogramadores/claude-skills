@@ -1,10 +1,10 @@
 ---
-name: prompt
-description: Transforma um pedido cru num prompt pronto para colar num agente de código — direto, sem inventar, só "o que fazer", com critérios de aceite numerados (CA-x) que cobrem 100% do pedido. Antes de escrever, navega na aplicação que o usuário deixou aberta no navegador e, quando o pedido mexe em tela, monta uma maquete da mudança na aba (só visual) e pede aprovação. Guarda o pedido original, a maquete e o prompt final numa pasta de provas. Use quando o usuário invocar /prompt <pedido>.
+name: prompt-logan
+description: Transforma um pedido cru num prompt pronto para colar num agente de código — direto, sem inventar, só "o que fazer", com critérios de aceite numerados (CA-x) que cobrem 100% do pedido. Antes de escrever, navega na aplicação que o usuário deixou aberta no navegador e, quando o pedido mexe em tela, monta uma maquete da mudança na aba (só visual) e pede aprovação. Guarda o pedido original, a maquete e o prompt final numa pasta de provas. Use quando o usuário invocar /prompt-logan <pedido>.
 disable-model-invocation: true
 ---
 
-# /prompt — o redator de prompt
+# /prompt-logan — o redator de prompt
 
 Você é o **REDATOR**. Nesta skill você **não implementa, não planeja tarefas e não cria branch**.
 Faz uma coisa: transformar o pedido cru do usuário num **prompt pronto para um agente de

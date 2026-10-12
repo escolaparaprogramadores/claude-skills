@@ -3,7 +3,7 @@
   Tira um print da tela inteira e grava em <PastaDeProvas>\maquete-NN.png.
 
 .DESCRIPTION
-  Usado pela skill /prompt (Passo 5). Cria a pasta se ela nao existir e numera
+  Usado pela skill /prompt-logan (Passo 5). Cria a pasta se ela nao existir e numera
   os arquivos sozinho: rodar de novo gera maquete-02.png, nunca sobrescreve.
   Funciona no Windows PowerShell 5.1 e no PowerShell 7.
 
