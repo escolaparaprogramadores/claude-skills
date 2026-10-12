@@ -66,9 +66,11 @@ Instale a skill "prompt" do repositório https://github.com/escolaparaprogramado
 
 Depois abra uma sessão nova e chame `/prompt <seu pedido>`.
 
-> [!TIP]
-> Quer a skill só em um projeto? Troque "para todos os meus projetos" por "só neste projeto" e
-> "~/.claude/skills/prompt" por ".claude/skills/prompt".
+Quer a skill só em um projeto? Abra o Claude Code na pasta do projeto e cole este:
+
+```text
+Instale a skill "prompt" do repositório https://github.com/escolaparaprogramadores/claude-skills só neste projeto: copie a pasta skills/prompt (com os arquivos de dentro) para a pasta de skills deste projeto (.claude/skills/prompt). Se ela já existir, me pergunte antes de substituir. No fim, me mostre os arquivos instalados.
+```
 
 ### Jeito manual
 
